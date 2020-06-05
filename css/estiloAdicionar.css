@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto';
+	background-color: #8854d0;
+	box-sizing: border-box;
+	transition: all 0.5s;
+}
+/*CSS que serve para as outras Views*/
+section{
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;	
+	margin-top: 90px;	
+}
+section span{
+	color: #dcdcdc;
+}
+div{
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	padding: 30px;
+	box-sizing: border-box;	
+	border-radius: 5px;
+}
+/*Fim*/
+span{
+	font-size: 28pt;
+}
+form{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+form input{
+	outline: none;
+	font-size: 14pt;
+}
+form .barra{
+	width: 250px;
+	border-top: none; 
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #8854d0;
+	padding: 10px;
+	margin: 10px; 
+	transition: 0.5s;
+}
+form .botao{
+	width: 100px;
+	height: 30px;
+	align-self: center;
+	border: 1px solid #8854d0;	
+	border-radius: 3px;
+	background-color: #8854d0;
+	color: #dcdcdc;
+	transition: 0.5s;	
+ }
+.barra:focus{
+	border-bottom: 3px solid #8854d0;
+	transition: 0.5s;	
+}
+.botao:hover{
+	background-color: #dcdcdc;
+	color: #8854d0;
+	transition: 0.5s;
+}
